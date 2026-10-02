@@ -103,7 +103,7 @@ def predict(message, history):
 # 3. GRADIO BROWSER INTERFACE LAYOUT
 # ==========================================
 with gr.Blocks(theme="soft") as demo:
-    gr.Markdown("# 📈 Equity Analyst Agent Workspace")
+    gr.Markdown("# 📈 Mandar's Equity Analyst Agent Workspace")
     gr.Markdown("Ask back-and-forth analytical questions regarding your uploaded corporate files. Type **bye** or **exit** to close the session.")
     
     gr.ChatInterface(
