@@ -29,3 +29,21 @@ lot of documents in production
 
 4) AI Agent-based document chunking
 
+
+Learn :
+
+dense 
+sparse
+infographic with images
+
+Todos:
+
+refer the linkedin post 
+refer krish nair posts
+modify the functionality
+add tool call for google search
+make it production specific - folder structure
+dockerize it and k8s specific
+
+
+
