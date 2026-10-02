@@ -56,7 +56,7 @@ def load_documents(docs_path="docs"):
 # ==========================================
 # 3. SEMANTIC TEXT SEGMENTATION
 # ==========================================
-def split_documents(documents, chunk_size=1500, chunk_overlap=200):
+def split_documents(documents, chunk_size=1000, chunk_overlap=200):
     """
     Splits text data recursively by paragraphs and sentences.
     1500 character limits with 200 character overlap maximize 
